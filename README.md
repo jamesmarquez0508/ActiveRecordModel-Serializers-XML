@@ -79,15 +79,3 @@ person = Person.new
 person.from_xml(xml) # => #<Person:0x00000100c773f0 @name="Bob">
 person.name          # => "Bob"
 ```
-
-### ActiveRecord::XmlSerializer
-
-This gem also provides serialization to XML for Active Record.
-
-Please see ActiveRecord::Serialization#to_xml for more information.
-
-## Contributing to ActiveModel::Serializers::Xml
-
-ActiveModel::Serializers::Xml is work of many contributors. You're encouraged to submit pull requests, propose features and discuss issues.
-
-See [CONTRIBUTING](CONTRIBUTING.md)
